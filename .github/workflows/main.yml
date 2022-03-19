@@ -13,7 +13,7 @@ jobs:
     - name: git clone
       uses: actions/checkout@v3
       with:
-        repository: robschn/ohgustie-coms
+        repository: robschn/ohgustie-com
 
     - id: 'auth'
       name: 'Authenticate to Google Cloud'
