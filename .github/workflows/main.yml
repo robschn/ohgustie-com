@@ -3,6 +3,8 @@ name: Upload to GCS on Merge
 on:
   push:
     branches: [ main ]
+    paths:
+      - 'index.html'
 
 jobs:
   build:
